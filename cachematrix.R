@@ -58,10 +58,10 @@ makeCacheMatrix <- function(x = matrix()) {
 ## [1,]   -2  1.5
 ## [2,]    1 -0.5
 ## Getting cached inverse matrix ## NOTE THE MESSAGE THAT SHOWS WE ARE NOW RETURNING THE CACHED VERSION
-     [,1] [,2]
-[1,]   -2  1.5
-[2,]    1 -0.5
-
+##     [,1] [,2]
+## [1,]   -2  1.5
+## [2,]    1 -0.5
+##
 cacheSolve <- function(x, ...) {
    
     ## ask the cache for the inverted matrix    
